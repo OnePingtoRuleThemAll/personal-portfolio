@@ -1,0 +1,59 @@
+* {
+    background-color: rgb(48, 45, 45);
+}
+
+header, #intro {
+    color:rgb(19, 123, 123);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+
+.links {
+    color:rgb(165, 6, 120);
+    font-size: 50px;
+    text-align: right;
+}
+
+#about-me {
+    font-size: 50px;
+}
+
+.paragraph {
+    background-color:rgb(50, 45, 45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(150, 228, 228);
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+
+}
+
+#about-me-paragraph {
+    /*put into box*/
+    /*put more towards center of box*/
+
+}
+.work-section, .resume, .contact-section {
+    font-size: 30px;
+    color: rgb(165, 6, 120);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/*media queries at least 2 desktop and mobile*/
+/*unsplash for photo's*/
+/*provide source for photos I already have*/
+
+
+.footer-section {
+    font-size: 20px;
+    color:rgb(19, 123, 123);
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    
+}

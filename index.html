@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+  
+
+    <head> <!--CHILD ELEMENT to the html, not seen by user, interpreted by the browser-->
+        <meta charset="UTF-8">
+        <title>Personal Portfolio</title><!--when you hover over the tab in the browser this is what you see-->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body><!--SIBLING of the head element, inside of body element is where the semantic elements are contained-->
+        <header>
+            <h1>Jessica Howard</h1>
+                <img src="/assets/profile.pic-3.jpg" id="img" alt="current photo of myself" width="300" height="300"/>
+        </header>
+
+
+        <section class="links"><!--move to top right of the page in CSS-->
+            <a id="About Me">About Me</a><!--link to this section of the page-->
+            <a id="Work">Work</a><!--link to this section of the page-->
+            <a id="Contact Me">Contact Me</a><!--link to this section of the page-->
+            <a id="Resume">Resume</a><!--link to this section of the page-->
+        </section>
+
+
+        <section>
+            <h2 id="intro">Hi, <br> I'm Jessica.</h2>
+        </section>
+  
+       
+        <section>
+            <div class="paragraph">
+                <h3 a href="#about-me"><strong>About Me</strong>
+                <!--I want all of this in a box--><p id="about-me-paragraph">I suppose I should start at the beginning of my career life...When I was 8 I had this lemonade stand...HA just kidding. I won't go back THAT far.</p>
+            
+                <p>Let's start at around 2009 when I entered the restaurant and bar industry at 19 with stars in my eyes and no back pain yet. <br> Fast foward to 2011, I now hold a management position at the same restaurant, but I'm always tired, I never have time off and I see my family less and less.</p>
+            
+                <p>Now lets jump to 2020. I'm still managing a restaurant and bar owned by the same chain...and I'm absolutely miserable.</p>
+           
+                <p>I was desperately searching for a career that would allow me to have the lifestyle I'd wanted since I became an adult and realized that world travel IS indeed possible and increasingly achievable. I knew I would never be able to have that lifestyle and keep the career I was currently employed in, so I started doing research. I discovered something called 'Full-Stack Development'. The more I looked into it, the more fascinated I became. Not just because it was the answer to my travelling prayers, but because I began to become curious, I'd always wondered about the industry and had always felt deep respect for those who chose this career path, because it just seemed so complicated and I definitely didn't have the kind of confidence in my capabilities to attempt to learn this kind of thing. Then one day it just hit me how much time I DON'T have. I pinched my nose, took a gigantic leap of faith in myself and canon-balled my way into a course at The University of Texas.</p>
+
+                <p>As you can see, I haven't drowned yet, but I've got a long way to go. I look forward to the life-long journey of continuing my education in this field and creating as much as I can to expand my experience and skills.</p>
+            </div>
+        </section>  
+      
+    
+        <section>
+            <div class="work-section">
+                <div a href="#work-section">Work</div><!--link to top-->
+                        <h4>HTML/CSS/JavaScript</h4>
+                        <img src="/assets/coming-soon.jpg" alt="coming soon image" width="300" height="300">
+                    <h4>MERNStack</h4>
+                        <img src="/assets/coming-soon-image-2.jpg" alt="coming soon neon sign" width="300" height="300">
+                    <h4>Node/IoT</h4>
+                        <img src="/assets/coming-soon.jpg" alt="coming soon image" width="300" height="300">
+            </div>
+            <br>
+            <div class="resume">
+                <h3 a href="#resume">Resume</h3>
+                    <!--insert link to resume-->
+            </div>
+            <br>
+            <div class="contact-section">    
+                <h3 a href="#contact-section"> <!--link to top-->
+                    <h3>Contact Me</h3>
+                        <ul>
+                            <li>Email: <a href="contact-me">Sissy1310@aol.com</a></li>
+                            <li>GitHub: <a href="contact-me">github.com/OnePingtoRuleThemAll</a></li>
+                            <li>LinkedIn: <a href="contact-me">www.linkedin.com/in/jessica-howard-95b600105/</a></li>
+                            <li>Phone: (555) 555-5555</li>
+                        </ul>
+            </div>
+        </section>
+    </body>
+   
+    <footer> 
+        <div class="footer-section">
+            <p><strong>Made with love, caffeine, HTML and a dash of CSS</strong><p>
+        </div>
+    </footer>
+</html>
+
